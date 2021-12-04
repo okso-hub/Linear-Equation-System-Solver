@@ -8,11 +8,16 @@ https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html
 >>> x
 Output: array([-1.,  1.])
 '''
-from numpy import array
-from numpy import linalg
+from numpy import array, linalg
+from os import system
+
+clear = lambda: system('clear')
 
 
 def solve_two_unknowns():
+
+    print("a*x + b*y = c \nd*x + e*y = f")
+
     a = int(input("Enter value for factor a: "))    
     b = int(input("Enter value for factor b: "))
     c = int(input("Enter value for product c: "))    
@@ -24,7 +29,7 @@ def solve_two_unknowns():
     y = array([c, f])
     solution = linalg.solve(x, y)
 
-    print(f"The solution is {solution}")
+    print(f"The solution is x={solution[0]}; y={solution[1]}")
 
 
 def solve_three_unknowns():
@@ -36,5 +41,6 @@ def main():
 
 
 if __name__ == '__main__':
+    clear()
     main()
 
