@@ -1,7 +1,7 @@
 from numpy import array, linalg
-from os import system
+import os
 
-clear = lambda: system('clear')
+clear = lambda: os.system('clear') if os.name == 'posix' else os.system('cls')
 
 
 def solve_two_unknowns():
