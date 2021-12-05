@@ -29,7 +29,7 @@ def solve_two_unknowns():
     y = array([c, f])
     solution = linalg.solve(x, y)
 
-    print(f"The solution is x={solution[0]}; y={solution[1]}")
+    print(f"The solutions are x={solution[0]}; y={solution[1]}.")
 
 
 def solve_three_unknowns():
@@ -53,7 +53,7 @@ def solve_three_unknowns():
     y = array([d, h, l])
     solution = linalg.solve(x, y)
 
-    print(f"The solutions are x={solution[0]}; y={solution[1]}; z={solution[2]}")
+    print(f"The solutions are x={solution[0]}; y={solution[1]}; z={solution[2]}.")
 
 def main():
 

@@ -9,7 +9,7 @@ Let's say you need to solve the given linear equation system:
 2x + 4y = 10  
  x +  y = 4
 
-After directing to the directory where the program is stored, simply run the program using the command  `python main.py`
+After directing to the directory where the program is stored, simply run the program using the command  `python main.py`.
 
 This brings up the following line:
 
@@ -24,7 +24,7 @@ In our case, we have two unknwons (x & y).
 python main.py
 How many unknowns are you looking for? 2
 ```
-Then, you will have to input the factors of you unknowns
+Then, you will have to input the factors of you unknowns.
 
 ```
 python main.py
