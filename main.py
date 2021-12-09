@@ -10,7 +10,8 @@ def solve_two_unknowns():
 
     a1 = float(input("Enter value for factor a1: "))    
     b1 = float(input("Enter value for factor b1: "))
-    c1 = float(input("Enter value for product c1: "))    
+    c1 = float(input("Enter value for solution c1: "))    
+
     a2 = float(input("Enter value for factor a2: "))
     b2 = float(input("Enter value for factor b2: "))
     c2 = float(input("Enter value for solution c2: "))
@@ -30,10 +31,12 @@ def solve_three_unknowns():
     b1 = float(input("Enter value for factor b1: "))
     c1 = float(input("Enter value for factor c1: "))    
     d1 = float(input("Enter value for solution d1: "))
+
     a2 = float(input("Enter value for factor a2: "))
     b2 = float(input("Enter value for factor b2: "))
     c2 = float(input("Enter value for factor c2: "))
     d2 = float(input("Enter value for solution d2: "))
+
     a3 = float(input("Enter value for factor a3: "))
     b3 = float(input("Enter value for factor b3: "))
     c3 = float(input("Enter value for factor c3: "))
