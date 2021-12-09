@@ -29,14 +29,15 @@ Then, you will have to input the factors of you unknowns.
 ```
 python main.py
 How many unknowns are you looking for? 2
-a*x + b*y = c 
-d*x + e*y = f
-Enter value for factor a: 2
-Enter value for factor b: 4
-Enter value for product c: 10
-Enter value for factor d: 1
-Enter value for factor e: 1
-Enter value for solution f: 4
+a1*x + b1*y = c1 
+a2*x + b2*y = c3
+Enter value for factor a1: 2
+Enter value for factor b1: 4
+Enter value for solution c1: 10
+Enter value for factor a2: 1
+Enter value for factor b2: 1
+Enter value for solution c2: 4
+The solutions are x=3.0; y=1.0.
 ```
 
 After entering the last parameter, you will get the solution.
@@ -44,13 +45,13 @@ After entering the last parameter, you will get the solution.
 ```
 python main.py
 How many unknowns are you looking for? 2
-a*x + b*y = c 
-d*x + e*y = f
-Enter value for factor a: 2
-Enter value for factor b: 4
-Enter value for product c: 10
-Enter value for factor d: 1
-Enter value for factor e: 1
-Enter value for solution f: 4
-The solution is x=3.0; y=1.0
+a1*x + b1*y = c1 
+a2*x + b2*y = c3
+Enter value for factor a1: 2
+Enter value for factor b1: 4
+Enter value for solution c1: 10
+Enter value for factor a2: 1
+Enter value for factor b2: 1
+Enter value for solution c2: 4
+The solutions are x=3.0; y=1.0.
 ```
